@@ -23,7 +23,7 @@ class FormularioCadastro extends Component {
     evento.stopPropagation();
     this.props.criarNota(this.titulo, this.texto);
   }
-
+  
   render() {
     return (
       <form className="form-cadastro"
